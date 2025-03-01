@@ -1,5 +1,4 @@
 # Plugins:
----
 
 - tokyonight
 - vim-devicons
@@ -12,7 +11,6 @@
 - neo-tree
 
 ## Keymaps:
----
 
 1) Terminal - <Ctrl> + T  (normal / terminal mode)
 2) Folders toggle - <F1> (open / close)
