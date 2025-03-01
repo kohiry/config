@@ -124,15 +124,15 @@ _G.packer_plugins = {
     path = "/home/max/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  nerdtree = {
+  ["neo-tree.nvim"] = {
     loaded = true,
-    path = "/home/max/.local/share/nvim/site/pack/packer/start/nerdtree",
-    url = "https://github.com/preservim/nerdtree"
+    path = "/home/max/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
-  ["nerdtree-git-plugin"] = {
+  ["nui.nvim"] = {
     loaded = true,
-    path = "/home/max/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
-    url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
+    path = "/home/max/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -140,15 +140,19 @@ _G.packer_plugins = {
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/home/max/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
+    loaded = true,
+    path = "/home/max/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/max/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/max/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["toggleterm.nvim"] = {
     config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0" },
@@ -165,11 +169,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/max/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
-  },
-  ["vim-nerdtree-syntax-highlight"] = {
-    loaded = true,
-    path = "/home/max/.local/share/nvim/site/pack/packer/start/vim-nerdtree-syntax-highlight",
-    url = "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight"
   }
 }
 
