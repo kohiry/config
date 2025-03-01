@@ -12,6 +12,6 @@
 
 ## Keymaps:
 
-1) Terminal - \<Ctrl\> + T  (normal / terminal mode)
+1) Terminal - \<Ctrl\> + T  (normal open / terminal mode close)
 2) Folders toggle - \<F1\> (open / close)
 3) Close Vim - \<F5\>
