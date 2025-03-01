@@ -1,6 +1,7 @@
 # Hi!👋👋👋
 
 This is my neovim configuration, written in lua.
+Config has autocomplete, linters, fixers, folders view, new terminal, theme, icons ![Linux](z.png "linux")
 
 ### Plugins:
 
