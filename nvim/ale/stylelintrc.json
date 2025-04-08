@@ -1,0 +1,22 @@
+{
+  "extends": "stylelint-config-standard-scss",  // Использует стандартную конфигурацию для SCSS
+  "plugins": [
+    "stylelint-scss"  // Плагин для поддержки SCSS
+  ],
+  "rules": {
+    "indentation": 2,  // Использовать 2 пробела для отступов
+    "max-nesting-depth": 3,  // Максимальная глубина вложенности
+    "no-duplicate-selectors": true,  // Запрещает дублирование селекторов
+    "block-no-empty": true,  // Запрещает пустые блоки
+    "color-hex-case": "lower",  // Цвета в шестнадцатеричном формате — только с маленькими буквами
+    "color-hex-length": "short",  // Короткая форма для шестнадцатеричных цветов, например, #fff вместо #ffffff
+    "max-empty-lines": 1,  // Максимальное количество пустых строк
+    "selector-max-id": 0,  // Запрещает использование ID-селекторов
+    "declaration-colon-newline-after": "always",  // Требует новой строки после двоеточия в декларациях
+    "no-unknown-animations": true,  // Запрещает неизвестные анимации
+    "no-missing-end-of-source-newline": true,  // Требует новую строку в конце файла
+    "font-family-no-duplicate-names": true,  // Запрещает дублирование шрифтов в списке
+    "function-name-case": "lower"  // Функции должны быть написаны с маленькими буквами
+  }
+}
+
